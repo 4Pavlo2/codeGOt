@@ -18,6 +18,6 @@ def com(str)
 end
 
 s = "oriented design, decomposition,^ : ,encapsulation, testing. and Uses testing. Uses,  testing. Uses and testing. Uses mf Uses".downcase
-#s = File.read("hw.txt")
+#s = File.read("hw.txt").downcase
 
 com(s)
